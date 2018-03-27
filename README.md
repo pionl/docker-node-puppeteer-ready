@@ -1,4 +1,4 @@
-# Docker image based on official node with with GoogleChrome/puppeteer support
+# Docker image based on official node image with with GoogleChrome/puppeteer support
 
 ## Pre-installed packages:
 
