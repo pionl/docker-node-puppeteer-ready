@@ -1,11 +1,11 @@
 # Linux image based on node with GoogleChrome/puppeteer support
 
-## Includes:
+## Pre-installed packages:
 
-- chrome requirements for running [puppeteer](https://github.com/GoogleChrome/puppeteer)
-- git support for cloning support
+- Chrome requirements for running [puppeteer](https://github.com/GoogleChrome/puppeteer)
+- git and openssh-server for cloning support
 
-## Versions:
+## Tags:
 
 - pionl/node-puppeteer-ready:8
 - pionl/node-puppeteer-ready:9
