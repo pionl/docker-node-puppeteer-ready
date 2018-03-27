@@ -1,9 +1,9 @@
-# Linux image based on node with GoogleChrome/puppeteer support
+# Docker image based on official node with with GoogleChrome/puppeteer support
 
 ## Pre-installed packages:
 
 - Chrome requirements for running [puppeteer](https://github.com/GoogleChrome/puppeteer)
-- git and openssh-server for cloning support
+- git and openssh-server for cloning support. Uses separate image [docker-node-clone-ready](https://github.com/pionl/docker-node-clone-ready)
 
 ## Tags:
 
@@ -14,6 +14,8 @@
 ```docker
 FROM pionl/node-puppeteer-ready:8
 ```
+
+Tip: [cloning/accessing private repository](https://github.com/pionl/docker-node-clone-ready#cloningaccessing-private-repository)
 
 ## Contribution
 
