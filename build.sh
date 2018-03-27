@@ -17,7 +17,7 @@ do
 	echo "$dockerFile" > "$i/Dockerfile"
 
 	# Build the image
-	imageName="pionl/node-chrome-ready:$i"
+	imageName="pionl/node-puppeteer-ready:$i"
 
 	# Should we deploy?
 	if [ "$1" = "deploy" ]; then
