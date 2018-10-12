@@ -9,7 +9,7 @@
 
 - pionl/node-puppeteer-ready:8
 - pionl/node-puppeteer-ready:9
-- pionl/node-puppeteer-ready:lastest (node 9)
+- pionl/node-puppeteer-ready:latest (node 9)
 
 ```docker
 FROM pionl/node-puppeteer-ready:8
