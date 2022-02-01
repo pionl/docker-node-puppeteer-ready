@@ -1,4 +1,4 @@
-FROM pionl/node-clone-ready:--TAG--
+FROM pionl/node-clone-ready:16
 
 MAINTAINER Martin Kluska <martin@kluska.cz>
 

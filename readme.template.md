@@ -10,7 +10,7 @@
 > This image should not be used running production services. It is designed mainly for a CI.
 
 ```
-docker run pionl/node-puppeteer-ready:17 google-chrome-stable --version
+docker run --IMAGE_NAME--:17 google-chrome-stable --version
 ```
 
 ### Gitlab CI usage
@@ -19,7 +19,7 @@ Gitlab CI usage
 
 ```shell
 test:review:
-  image: pionl/node-puppeteer-ready:17
+  image: --IMAGE_NAME--:17
   stage: acceptance
   variables:
     PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: "true"
@@ -47,18 +47,8 @@ browser.launch({executablePath: 'google-chrome-stable'})
 
 ### Tags
 
-![https://github.com/pionl/node-puppeteer-ready](https://img.shields.io/github/license/pionl/node-puppeteer-ready?style=flat-square)
-![](https://img.shields.io/docker/pulls/pionl/node-puppeteer-ready?style=flat-square) ![](https://img.shields.io/docker/stars/pionl/node-puppeteer-ready?style=flat-square)
-
-Image | Badges
- --- | ---
-**pionl/node-puppeteer-ready:17** | ![](https://img.shields.io/docker/image-size/pionl/node-puppeteer-ready/17?style=flat-square)
-**pionl/node-puppeteer-ready:16** | ![](https://img.shields.io/docker/image-size/pionl/node-puppeteer-ready/16?style=flat-square)
-**pionl/node-puppeteer-ready:14** | ![](https://img.shields.io/docker/image-size/pionl/node-puppeteer-ready/14?style=flat-square)
-**pionl/node-puppeteer-ready:12** | ![](https://img.shields.io/docker/image-size/pionl/node-puppeteer-ready/12?style=flat-square)
-**pionl/node-puppeteer-ready:9** | ![](https://img.shields.io/docker/image-size/pionl/node-puppeteer-ready/9?style=flat-square)
-**pionl/node-puppeteer-ready:8** | ![](https://img.shields.io/docker/image-size/pionl/node-puppeteer-ready/8?style=flat-square)
-
+![https://github.com/--IMAGE_NAME--](https://img.shields.io/github/license/--IMAGE_NAME--?style=flat-square)
+--TAGS--
 
 ## Built With
 
@@ -68,8 +58,8 @@ Image | Badges
 
 ## Find Us
 
-* [GitHub](https://github.com/pionl/node-puppeteer-ready)
-* [Docker Hub](https://cloud.docker.com/repository/docker/pionl/node-puppeteer-ready)
+* [GitHub](https://github.com/--IMAGE_NAME--)
+* [Docker Hub](https://cloud.docker.com/repository/docker/--IMAGE_NAME--)
 
 ## Contributions
 

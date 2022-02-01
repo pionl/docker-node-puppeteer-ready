@@ -1,0 +1,27 @@
+{
+  "image": "pionl/node-puppeteer-ready",
+  "tags": [
+    {
+      "tag": "17"
+    },
+    {
+      "tag": "16"
+    },
+    {
+      "tag": "14"
+    },
+    {
+      "tag": "12"
+    },
+    {
+      "tag": "9"
+    },
+    {
+      "tag": "8"
+    }
+  ],
+  "run": [
+    "node --version",
+    "google-chrome-stable --version"
+  ]
+}
