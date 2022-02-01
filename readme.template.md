@@ -23,7 +23,7 @@ test:review:
   stage: acceptance
   variables:
     PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: "true"
-    PUPPETEER_EXECUTABLE_PATH: "google-chrome-stable"
+    PUPPETEER_EXECUTABLE_PATH: "/usr/bin/google-chrome-stable"
   tags:
     - docker
   script:
